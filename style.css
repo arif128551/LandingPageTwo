@@ -1,0 +1,243 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300
+    }
+
+#carousel {
+    margin-top: 16px;
+    width: 80%
+    }
+
+#carousel .slides img {
+    cursor: pointer;
+    width: 93%
+    }
+
+.header_area {
+    background: #ff8300 none repeat scroll 0 0;
+    min-height: 114px
+    }
+
+.pic_client img {
+    left: 0;
+    position: absolute;
+    top: 0
+    }
+
+.name_main {
+    text-align: right
+    }
+
+.name_main h1 {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 300
+    }
+
+.header_bottom_area {
+    background: #f7f7f7 none repeat scroll 0 0;
+    min-height: 182px
+    }
+
+.contact_infoleft {
+    float: left;
+    margin-top: 20px;
+    width: 30px
+    }
+
+.border_contactinfo {
+    border-right: 1px solid #d0d0d0;
+    float: left;
+    height: 182px;
+    margin-right: 10px;
+    width: 1px
+    }
+
+.contact_infoleft h2 {
+    color: #ff8300;
+    font-size: 30px;
+    font-weight: 300
+    }
+
+.contact_infoleft h2 span {
+    display: block;
+    margin-top: 5px
+    }
+
+.contact_inforight {
+    float: left;
+    margin-top: 20px
+    }
+
+.contact_inforight h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #5b5b5b
+    }
+
+.contact_inforight h2 span {
+    display: block;
+    margin-top: 5px
+    }
+
+.rennie_img {
+    margin-top: 6px;
+    text-align: right
+    }
+
+.plaace_name h1 {
+    color: #ff8300;
+    font-size: 52px;
+    font-weight: 100;
+    text-align: center
+    }
+
+.dollarammount {
+    text-align: center
+    }
+
+.dollarammount h1 {
+    color: #5b5b5b;
+    font-size: 53px;
+    font-weight: 100
+    }
+
+.placedollar_area {
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 17px
+    }
+
+.conlistingtitle_area {
+    margin-bottom: 10px;
+    margin-top: 35px
+    }
+
+.contact_title h2, .listing_title h2 {
+    color: #747474;
+    font-size: 32px;
+    font-weight: 400
+    }
+
+.conlistingtitle_border {
+    background: #e9e9e9 none repeat scroll 0 0;
+    height: 2px;
+    margin-bottom: 20px
+    }
+
+.contact_form p {
+    margin-bottom: 20px
+    }
+
+.yourname, .yourphone, .youremail, .listingaddress, .yourmessage {
+    color: #f99832;
+    float: left;
+    font-size: 24px;
+    font-weight: 300;
+    width: 170px
+    }
+
+.nameform, .phoneform, .emailform, .listingaddressform, .messagefield {
+    background: #f2f2f2 none repeat scroll 0 0;
+    border: 0 none;
+    padding: 9px;
+    width: 375px
+    }
+
+.messagefield {
+    min-height: 115px
+    }
+
+.submitform {
+    background: #ff8300 none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    height: 44px;
+    text-transform: uppercase;
+    width: 100px
+    }
+
+p.submitbutton {
+    text-align: right
+    }
+
+.contact_inforight a {
+    color: #5b5b5b;
+    font-size: 29px;
+    font-weight: 300;
+    text-decoration: none
+    }
+
+.listing_deatiallists {
+    margin-bottom: 13px
+    }
+
+.listing_deatiallists ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+    }
+
+.listing_deatiallists ul li {
+    border-right: 1px solid #747474;
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 10px
+    }
+
+.listing_deatiallists ul li:last-child {
+    border-right: 0 solid
+    }
+
+.listing_deatiallists ul li a {
+    color: #f99302;
+    font-size: 20px;
+    text-decoration: none
+    }
+
+.listing_detailpara p {
+    color: #747474;
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-align: justify
+    }
+	.footer a {
+	  color: #7c7c7c;
+	  font-size: 48px;
+	  font-weight: 100;
+	}
+/* gmap */
+.map {
+    width: 100%;
+    height: 450px
+    }
+
+.map p {
+    margin: 10px;
+    color: #333
+    }
+
+/* ==========================================================================
+   bootstrap focus off
+   ========================================================================== */
+a:hover, a:focus {
+    color: #2a6496;
+    text-decoration: none
+    }
+
+a:focus {
+    outline: none;
+    outline: 0 auto -webkit-focus-ring-color;
+    outline-offset: 0
+    }
+
+input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+    outline: thin dotted;
+    outline: 0 auto -webkit-focus-ring-color;
+    outline-offset: 0
+    }
+
+html {
+    overflow-x: hidden
+    }
